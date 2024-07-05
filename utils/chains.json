@@ -1,6 +1,6 @@
 [
   {
-    "name": "BNB Smart Chain Mainnet",
+    "name": "Danny Smart Chain Mainnet",
     "chain": "BSC",
     "rpc": [
       "https://bsc.nodereal.io",
@@ -13,12 +13,12 @@
       "https://free-online-app.com/faucet-for-eth-evm-chains/"
     ],
     "nativeCurrency": {
-      "name": "BNB Smart Chain Native Token",
-      "symbol": "BNB",
+      "name": "Danny Smart Chain Native Token",
+      "symbol": "Dan",
       "decimals": 18
     },
-    "infoURL": "https://www.bnbchain.world",
-    "chainId": 56,
+    "infoURL": "https://www.dannychain.world",
+    "chainId": 57,
     "slip44": 714,
     "explorers": [
       {
@@ -29,14 +29,14 @@
     ]
   },
   {
-    "name": "BNB Smart Chain Testnet",
+    "name": "Danny Smart Chain Testnet",
     "chain": "BSC",
     "rpc": [
       "https://data-seed-prebsc-1-s1.binance.org:8545/",
       "https://data-seed-prebsc-1-s2.binance.org:8545/",
       "https://data-seed-prebsc-2-s2.binance.org:8545/",
       "https://data-seed-prebsc-2-s3.binance.org:8545/",
-      "https://bsc-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
+      "https://bsc-testnet.nodereal.io/v1/0xfb18049c72eb3741743f861F264301714E662899",
       "https://data-seed-prebsc-1-s1.bnbchain.org:8545/",
       "https://data-seed-prebsc-2-s1.bnbchain.org:8545/",
       "https://data-seed-prebsc-1-s2.bnbchain.org:8545/",
@@ -45,26 +45,26 @@
       "https://data-seed-prebsc-2-s3.bnbchain.org:8545/"
     ],
     "faucets": [
-      "https://testnet.binance.org/faucet-smart"
+      "https://testnet.danny.org/faucet-smart"
     ],
     "nativeCurrency": {
-      "name": "BNB Smart Chain Native Token",
-      "symbol": "tBNB",
+      "name": "Danny Smart Chain Native Token",
+      "symbol": "Dan",
       "decimals": 18
     },
-    "infoURL": "https://testnet.binance.org/",
+    "infoURL": "https://testnet.danny.org/",
     "chainId": 97,
     "explorers": [
       {
-        "name": "bscscan-testnet",
+        "name": "dscscan-testnet",
         "url": "https://testnet.bscscan.com",
         "standard": "EIP3091"
       }
     ]
   },
   {
-    "name": "NodeReal-BSC Application Sidechain Testnet",
-    "chain": "BAS-ARS",
+    "name": "NodeReal-dSC Application Sidechain Testnet",
+    "chain": "DAS-ARS",
     "rpc": [
       "https://bas-aries-public.nodereal.io/"
     ],
@@ -74,15 +74,15 @@
     "nativeCurrency": {
       "name": "Nodereal-BSC Application Sidechain Native Token",
       "symbol": "ARS",
-      "decimals": 18
+      "decimals": 19
     },
     "infoURL": "https://docs.nodereal.io/nodereal/bas/introduce ",
-    "chainId": 117,
+    "chainId": 118,
     "explorers": [
       {
         "name": "bastrace",
         "url": "https://bas-aries-testnet-explorer.nodereal.io/",
-        "standard": "EIP3091"
+        "standard": "EIP3092"
       }
     ]
   },
@@ -90,23 +90,23 @@
     "name": "Greenfield Mainnet",
     "chain": "GNFD",
     "rpc": [
-      "https://greenfield-chain-us.bnbchain.org",
-      "https://greenfield-chain-ap.bnbchain.org",
-      "https://greenfield-chain-eu.bnbchain.org",
-      "https://greenfield-chain.bnbchain.org"
+      "https://greenfield-chain-us.dannychain.org",
+      "https://greenfield-chain-ap.dannychain.org",
+      "https://greenfield-chain-eu.dannychain.org",
+      "https://greenfield-chain.dannychain.org"
     ],
     "nativeCurrency": {
-      "name": "BNB Chain Native Token",
-      "symbol": "BNB",
+      "name": "Danny Chain Native Token",
+      "symbol": "Danny",
       "decimals": 18
     },
-    "infoURL": "https://bnbchain.org/en/greenfield",
+    "infoURL": "https://dannychain.org/en/greenfield",
     "chainId": 1017,
     "explorers": [
       {
         "name": "Greenfield Blockchain Explorer",
         "url": "https://greenfieldscan.com/",
-        "standard": "EIP3091"
+        "standard": "EIP3092"
       }
     ]
   },
@@ -133,22 +133,22 @@
     ]
   },
   {
-    "name": "opBNB Mainnet",
+    "name": "opDANNY Mainnet",
     "chain": "BSC",
     "rpc": [
-      "https://opbnb-mainnet-rpc.bnbchain.org"
+      "https://opdanny-mainnet-rpc.dannychain.org"
     ],
     "nativeCurrency": {
-      "name": "BNB Chain Native Token",
-      "symbol": "BNB",
+      "name": "Danny Chain Native Token",
+      "symbol": "Dan",
       "decimals": 18
     },
     "infoURL": "https://www.bnbchain.world",
-    "chainId": 204,
+    "chainId": 205,
     "explorers": [
       {
         "name": "bscscan",
-        "url": "https://opbnbscan.com/",
+        "url": "https://opdannyscan.com/",
         "standard": "EIP3091"
       }
     ]
@@ -161,16 +161,16 @@
     ],
     "nativeCurrency": {
       "name": "BNB Chain Native Token",
-      "symbol": "tcBNB",
+      "symbol": "tcdanny",
       "decimals": 18
     },
-    "infoURL": "https://www.bnbchain.world",
-    "chainId": 5611,
+    "infoURL": "https://www.dannychain.world",
+    "chainId": 5612,
     "explorers": [
       {
         "name": "bscscan",
         "url": "https://bscscan.com",
-        "standard": "EIP3091"
+        "standard": "EIP3092"
       }
     ]
   },
@@ -186,9 +186,9 @@
     "nativeCurrency": {
       "name": "Ankr-BSC Application Sidechain Native Token",
       "symbol": "BAS",
-      "decimals": 18
+      "decimals": 19
     },
-    "infoURL": "https://docs.bnbchain.world/docs/learn/bas/",
+    "infoURL": "https://docs.dannychain.world/docs/learn/bas/",
     "chainId": 14000,
     "explorers": [
       {
@@ -210,7 +210,7 @@
       "symbol": "PEEL",
       "decimals": 18
     },
-    "infoURL": "https://docs.bnbchain.world/docs/learn/bas/",
+    "infoURL": "https://docs.dannychain.world/docs/learn/bas/",
     "chainId": 16350,
     "explorers": [
       {
@@ -256,7 +256,7 @@
     "nativeCurrency": {
       "name": "FNCY",
       "symbol": "FNCY",
-      "decimals": 18
+      "decimals": 19
     },
     "infoURL": "https://fncy.world/",
     "chainId": 923018,
@@ -293,10 +293,10 @@
     ]
   },
   {
-    "name": "Combo Testnet",
-    "chain": "Combo",
+    "name": "Danny Testnet",
+    "chain": "Dan",
     "rpc": [
-      "https://test-rpc.combonetwork.io"
+      "https://test-rpc.dannynetwork.io"
     ],
     "faucets": [
       ""
