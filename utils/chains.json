@@ -310,34 +310,10 @@
     "chainId": 91715,
     "explorers": [
       {
-        "name": "Combo Testnet Blockchain Explorer",
-        "url": "https://combotrace-testnet.nodereal.io/",
+        "name": "DAnny Testnet Blockchain Explorer",
+        "url": "https://Danny-testnet.nodereal.io/",
         "standard": "EIP3091"
       }
     ]
   },
   {
-    "name": "Combo MainNet",
-    "chain": "Combo",
-    "rpc": [
-      "https://rpc.combonetwork.io"
-    ],
-    "faucets": [
-      ""
-    ],
-    "nativeCurrency": {
-      "name": "Binance Chain Native Token",
-      "symbol": "BNB",
-      "decimals": 18
-    },
-    "infoURL": "https://combonetwork.io",
-    "chainId": 9980,
-    "explorers": [
-      {
-        "name": "Combo Blockchain Explorer",
-        "url": "https://combotrace.nodereal.io/",
-        "standard": "EIP3091"
-      }
-    ]
-  }
-]
